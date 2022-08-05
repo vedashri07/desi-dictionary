@@ -1,0 +1,88 @@
+.login-card {
+    padding: 5px;
+    height: 200px;
+
+    background-color: transparent;
+}
+
+.bg-image {
+    background-image: url('../icons/Illustration\ -\ Doodle\ 19.png');
+    height: 350px;
+    background-size: cover;
+    background-position-x: center;
+    background-color: transparent !important;
+}
+
+.row-bg {
+    background-image: url('../icons/bg_image.png');
+    background-color: transparent !important;
+
+
+}
+
+.login-button {
+    width: 345px;
+    height: 45px;
+    /* left: 34px; */
+    /* top: 616px; */
+    background: #FFFFFF;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 8%), 0px 2px 3px rgb(0 0 0 / 17%);
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+#google {
+    background: url('../icons/google.png') left top;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.google-text {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 17px;
+}
+
+.apple-text {
+    color: white;
+    font-size: 17px;
+    background-color: black;
+}
+
+#apple {
+    background: url('../icons/apple.png') left top;
+    width: 20px;
+    height: 25px;
+    display: block;
+    background-size: cover;
+    padding: 10px;
+    display: inline-flex;
+
+}
+
+#content-desktop {
+    display: block;
+}
+
+#content-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: inline-flex;
+    }
+
+
+    
+
+}

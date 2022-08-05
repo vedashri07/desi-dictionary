@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Rubik;
+    src: url('../fonts/Rubik-Regular.ttf');
+}
+
+a{
+   color: #2D3142 !important; 
+}
+body {
+    font-family: Rubik;
+    background-color: #FFFCCD !important;
+  }
+  #content-desktop {display: block;}
+  #content-mobile {display: none;}
+  
+  @media screen and (max-width: 768px) {
+  
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
+  
+  }
+
+
+  .search-icon{
+    position: absolute;
+    left: 18px;
+    color: #666666;
+
+  }
+  .header-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 30px;
+    color: #2D3142;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    #content-desktop {
+        display: none;
+    }
+
+    #content-mobile {
+        display: inline-flex;
+    }
+
+    .header-text{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 30px;
+      color: #2D3142;
+      text-transform: uppercase;
+    }
+    
+
+}
